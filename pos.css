@@ -1,0 +1,48 @@
+*{
+	box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+	width:  100%;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 100%;
+}
+
+h1{
+	margin: 1rem 0;
+}
+
+section{
+	
+	border-bottom: 1px solid #000;
+}
+
+.wrapper{
+	max-width: 600px;
+	margin: 0 auto;
+	height: 600px;
+}
+
+.row{
+	width:  100%;
+	padding: 1rem 0;
+}
+
+
+.col{
+	width: 200px;
+	height: 200px;
+}
+
+.electric-purple{
+	background: #C200FB;
+}
+
+.raspberry{
+	background: #EC0868;
+}
+
+.ferrari-red{
+	background: #FC2F00
+}
