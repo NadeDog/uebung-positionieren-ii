@@ -20,7 +20,6 @@ section{
 	min-height: 600px;
 	margin-top: 2rem;
 	outline: 1px solid red;
-	position: relative;
 
 
 }
@@ -28,7 +27,6 @@ section{
 .wrapper{
 	max-width: 600px;
 	margin: auto;
-	position: relative;
 	outline: 1px solid blue;
 
 }
@@ -45,47 +43,16 @@ section{
 
 .electric-purple{
 	background: #C200FB;
-	position: absolute;
-	top: 50%;
-	left:50%;
-	margin-left: -100px;
-	margin-top: -100px;
 }
 
 .raspberry{
 	background: #EC0868;
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	z-index: 1;
-
 }
 
 .ferrari-red{
 	background: #FC2F00;
-	position: absolute;
-	top: 0;
-	right: 0;
-	z-index: 2;
-
-
 }
 
 .black{
 	background: #000;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-}
-
-section:hover .electric-purple{
-	left: 300%;
-	margin-left: 100px;
-	border-radius: 50%;
-	background: yellow;
-
-}
-
-section .electric-purple{
-	transition: .4s all ease;
 }
