@@ -1,66 +1,55 @@
-*{
-	box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-html, body{
-	height: 200%;
-	width:  100%;
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 100%;
-
+html,
+body {
+  height: 200%;
+  width: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
 }
 
-h1{
-	margin: 1rem 0;
+h1 {
+  margin: 1rem 0;
 }
 
-section{
-	background: lightgrey;
-	border-bottom: 1px solid #000;
-	min-height: 600px;
-	margin-top: 2rem;
-	outline: 1px solid red;
-
-
+section {
+  background: lightgrey;
+  border-bottom: 1px solid #000;
+  min-height: 600px;
+  margin-top: 2rem;
+  outline: 1px solid red;
 }
 
-.wrapper{
-	max-width: 600px;
-	margin: auto;
-	outline: 1px solid blue;
-
+.wrapper {
+  max-width: 600px;
+  margin: auto;
+  outline: 1px solid blue;
 }
 
-.row{
-	width: 100%;
-	height: 600px;
-
-
+.conatiner {
+  width: 100%;
+  height: 600px;
 }
 
-.col{
-	width: 200px;
-	height: 200px;
+.element {
+  width: 200px;
+  height: 200px;
 }
 
-.electric-purple{
-	background: #C200FB;
-
+.electric-purple {
+  background: #c200fb;
 }
 
-.raspberry{
-	background: #EC0868;
-	}
-
-.ferrari-red{
-	background: #FC2F00;
+.raspberry {
+  background: #ec0868;
 }
 
-.black{
-	background: #000;
+.ferrari-red {
+  background: #fc2f00;
 }
 
-.blabla{
-	background: #fff;
-	padding: .5rem;
+.black {
+  background: #000;
 }
